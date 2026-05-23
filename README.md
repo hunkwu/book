@@ -1,4 +1,4 @@
-# 📘 OpenAI Codex 蓝皮书：从入门到架构大师 (The Codex Blue Book)
+# 📘 OpenAI Codex 蓝皮书：从入门到架构大师
 
 > 💡 **AI 原生时代的产品研发与多端编排实战指南**
 > 
