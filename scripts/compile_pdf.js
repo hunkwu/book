@@ -11,6 +11,9 @@ async function compile() {
   const pdfZh = await mdToPdf(
     { path: path.join(workspace, 'codex_blue_book_zh.md') },
     {
+      launch_options: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+      },
       pdf_options: {
         format: 'A4',
         margin: { top: '20mm', right: '20mm', bottom: '20mm', left: '20mm' },
@@ -25,6 +28,9 @@ async function compile() {
   const pdfEn = await mdToPdf(
     { path: path.join(workspace, 'codex_blue_book_en.md') },
     {
+      launch_options: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+      },
       pdf_options: {
         format: 'A4',
         margin: { top: '20mm', right: '20mm', bottom: '20mm', left: '20mm' },
